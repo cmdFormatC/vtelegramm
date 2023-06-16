@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Авторизация</title>
+    </head>
+<body>
+    <div class="root">
+        <div class="authentication login">
+            <h1 class="authentication__title">Вход</h1>
+            <form class="authentication__form" name="authenticationLogin" onsubmit="return false" novalidate>
+                <span name="username" class="authentication__placeholder">Юзернейм</span>
+                <input name="username" placeholder="@юзернейм" type="text" minlength="2" maxlength="30" class="authentication__input authentication__username" required>
+                <span class="input-username-error authentication____error"></span>
+                <span name="password" class="authentication__placeholder">Пароль</span>
+                <input name="password" placeholder="Пароль" type="password" minlength="2" maxlength="30" class="authentication__input authentication__password" required>
+                <span class="input-password-error authentication____error"></span>
+            </form>
+            <button type="button" class="authentication__button">Авторизироваться</button>
+            <a class="authentication__link" href="singin.html">Нет аккаунта?</a>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+    <template id="emailConfirmation">
+        
+    </template>
+</body>
+</html>

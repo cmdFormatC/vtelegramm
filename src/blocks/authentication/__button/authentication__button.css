@@ -1,0 +1,26 @@
+.authentication__button {
+    margin: 120px 0 0 0;
+    background-color: #3369F3;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1px;
+    text-align: center;
+    width: 280px;
+    height: 37px;
+    border: none;
+    border-radius: 8px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.singin .authentication__button {
+    margin: 32px 0 0 0;
+}
+
+
+.authentication__button:hover {
+    opacity: 0.9;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="singin.css">
+        <title>Авторизация</title>
+    </head>
+<body>
+    <div class="root">
+        <div class="authentication singin">
+            <h1 class="authentication__title">Регистрация</h1>
+            <form class="authentication__form" name="authenticationSingin" onsubmit="return false" novalidate>
+                <span name="email" class="authentication__placeholder">Почта</span>
+                <input name="email" placeholder="Почта" type="email" minlength="2" maxlength="30" class="authentication__input authentication__email" required>
+                <span class="input-email-error authentication____error"></span>
+                <span name="username" class="authentication__placeholder">Никнейм</span>
+                <input name="username" placeholder="Никнейм" type="text" minlength="2" maxlength="30" class="authentication__input authentication__username" required>
+                <span class="input-username-error authentication____error"></span>
+                <span name="name" class="authentication__placeholder">Имя</span>
+                <input name="name" placeholder="Имя" type="text" minlength="2" maxlength="30" class="authentication__input authentication__name" required>
+                <span class="input-name-error authentication____error"></span>
+                <span name="surname" class="authentication__placeholder">Фамилия</span>
+                <input name="surname" placeholder="Фамилия" type="text" minlength="2" maxlength="30" class="authentication__input authentication__username" required>
+                <span class="input-surname-error authentication____error"></span>
+                <span name="phone" class="authentication__placeholder">Телефон</span>
+                <input name="phone" placeholder="Телефон" type="phone" minlength="2" maxlength="30" class="authentication__input authentication__username" required>
+                <span class="input-phone-error authentication____error"></span>
+                <span name="password" class="authentication__placeholder">Пароль</span>
+                <input name="password" placeholder="Пароль" type="password" minlength="2" maxlength="30" class="authentication__input authentication__password" required>
+                <span class="input-password-error authentication____error"></span>
+                <span name="passwordConfirmation" class="authentication__placeholder">Пароль (ещё раз)</span>
+                <input name="passwordConfirmation" placeholder="Пароль (ещё раз)" type="password" minlength="2" maxlength="30" class="authentication__input authentication__password-confirmation" required>
+                <span class="input-passwordConfirmation-error authentication____error"></span>
+            </form>
+            <button type="button" class="authentication__button">Зарегистрироваться</button>
+            <a class="authentication__link" href="index.html">Войти</a>
+        </div>
+    </div>
+    <script type="module" src="singin.js"></script>
+    <template id="emailConfirmation">
+        <h1 class="authentication__title">Подтверждение email</h1>
+        <form class="authentication__form" name="authenticationEmailConfirmation" onsubmit="return false" novalidate>
+            <p class="authentication__paragraph">Письмо с кодом подтверждения направлено на адрес:<br><span class="authentication__paragraph_accent"></span></p>
+            <span name="сode" class="authentication__placeholder">Код</span>
+            <input name="сode" placeholder="Код" type="text" minlength="4" maxlength="4" class="authentication__input authentication__code" required>
+            <span class="input-сode authentication____error"></span>
+        </form>
+        <button type="button" class="authentication__button">Подтвердить</button>
+        <a class="authentication__link" href="#">Отправить повторно (60)</a>
+    </template>
+</body>
+</html>

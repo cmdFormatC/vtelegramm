@@ -1,0 +1,15 @@
+.authentication__placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 1;
+    height: 9px;
+    margin: 6px 0 0 0;
+    color: #999999;
+    visibility: hidden;
+}
+
+.authentication__placeholder:nth-child(1) {
+    margin: 0;
+}

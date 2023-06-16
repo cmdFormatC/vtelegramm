@@ -1,0 +1,14 @@
+.authentication__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1;
+    color: #3369F3;
+    text-decoration: none;
+    margin: 14px 0 30px 0;
+}
+
+.authentication__link:hover {
+    opacity: 0.8;
+}

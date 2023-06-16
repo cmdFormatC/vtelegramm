@@ -1,0 +1,12 @@
+.authentication____error {
+    visibility: hidden;
+    opacity: 0;
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 1;
+    color: #FF0000;
+    margin: 5px 0 0 0;
+    min-height: 20px;
+}

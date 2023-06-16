@@ -1,0 +1,7 @@
+.authentication__link_disable {
+    color: #1E1E1E;
+    cursor: default;
+}
+.authentication__link_disable:hover {
+    opacity: 1;
+}
